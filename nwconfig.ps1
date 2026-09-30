@@ -4,6 +4,7 @@ $adapters = Get-CimInstance -ClassName Win32_NetworkAdapterConfiguration | Where
 # Hostnamen auslesen
 $hostname = hostname
 
+
 Write-Host "==========================================" -ForegroundColor Cyan
 Write-Host " NETZWERKINFORMATIONEN FÜR: $hostname" -ForegroundColor Cyan
 Write-Host "==========================================" -ForegroundColor Cyan
